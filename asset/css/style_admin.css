@@ -1,0 +1,392 @@
+
+.bersihkan{
+    clear: both;
+}
+
+body{
+    background: #ccc;
+    font-family: arial;
+}
+
+#container{
+    max-width: 980px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 29px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 29px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 29px 0px rgba(0,0,0,0.75);
+}
+
+#container #header{
+    margin: 0;
+    padding: 0;
+}
+
+#container #header .top{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#container #header .top .tanggal{
+    float: left;
+    width: 50%;
+    font-weight: bold;
+    font-size: 15px;
+    color: #000;
+}
+
+#container #header .top .selamat{
+    float: left;
+    text-align: right;
+    width: 50%;
+    font-weight: bold;
+    font-size: 15px;
+    color: #000;
+    font-style: italic;
+}
+
+#container #header .username{
+    text-align: right;
+}
+
+#container #header legend{
+    text-align: right;
+    width: 100%;
+    color: #000;
+    font-style: italic;
+    font-weight: bold;
+    padding: 0 5px 0 0;
+}
+
+#container #header .menus{
+    margin: 10px 0;
+    padding: 10px 15px;
+    background: #999999;
+    border-radius: 6px;
+    border: 2px solid #000;
+    
+}
+
+#container #header .menus ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#container #header .menus ul li{
+    float: left;
+    margin: 0 20px 0 0;
+}
+
+#container #header .menus ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#container #header .menus ul li a:hover{
+    color: #fff;
+    font-style: italic;
+}
+
+#container #content{
+    margin: 0;
+    padding: 0;
+}
+
+#container #content p{
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+}
+
+#container #content fieldset{
+    border: 2px solid #000;
+    padding: 0px;
+    margin: 20px 0 0 0;
+    border-radius: 5px;
+}
+
+#container #content fieldset legend{
+    border: 2px solid #000;
+    padding: 6px 15px;
+    margin: 0 0 0 10px;
+    color: red;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#container #content fieldset ol li{
+    margin: 5px 0;
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+}
+
+#container #content .content_admin{
+    margin: 0;
+    padding: 15px;
+    border: 2px solid #000;
+    border-radius: 6px;
+}
+
+#container #content .content_admin .add_admin{
+    margin: 0;
+    padding: 0;
+}
+
+#container #content .content_admin .add_admin .title_add_admin{
+    margin: 0 0 20px 0;
+    padding: 10px 0;
+}
+
+#container #content .content_admin .add_admin .title_add_admin .main_title_add_admin{
+    background: #999999;
+    color: #000;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+#container #content .content_admin .add_admin .title_add_admin .main_title_add_admin:hover{
+    background: #000;
+    color: #fff;
+}
+
+#container #content .content_admin .add_admin .isi_add_admin{
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+
+#container #content .content_admin .add_admin .isi_add_admin table{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-spacing: 0;
+    border: 2px solid #000;
+    border-radius: 3px;
+}
+
+#container #content .content_admin .add_admin .isi_add_admin table .title_table{
+    background: #666;
+    color: #fff;
+    padding: 10px 15px;
+    width: 25%;
+    border: 1px solid #ccc;
+    text-align: center;
+    margin: 0 5px 0 0;
+}
+
+#container #content .content_admin .add_admin .isi_add_admin table .isi_table{
+    background: #999999;
+    margin: 0;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+#container #content .content_admin .add_admin .isi_add_admin table .isi_table:hover{
+    background: #000;
+}
+
+#container #content .content_admin .add_admin .isi_add_admin table .isi_table .input_text{
+    padding: 5px;
+    width: 100%;
+    background: #fff;
+    border: none;
+}
+
+#container #content .content_admin .add_admin .isi_add_admin table .isi_table .input_area{
+    padding: 5px;
+    width: 100%;
+    background: #fff;
+    border: none;
+    height: 150px;
+}
+
+#container #content .content_admin .add_admin .isi_add_admin table .simpan{
+    width: 100%;
+    padding: 5px;
+    margin: 0;
+    border-radius: 3px;
+    background: #000;
+    font-weight: bold;
+    font-size: 18px;
+    border: 2px solid #cccccc;
+    text-transform: capitalize;
+    cursor: pointer;
+    color: #fff;
+}
+
+#container #content .content_admin .add_admin .isi_add_admin table .simpan:hover{
+    background: #fff;
+    color: #000;
+}
+
+#container #content .content_admin .tampil_admin{
+    margin: 20px 0 0 0;
+    padding: 0;
+}
+
+#container #content .content_admin .tampil_admin .tbl_admin{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: #000;
+    border-radius: 3px;
+}
+
+#container #content .content_admin .tampil_admin .tbl_admin thead{
+    background: #666;
+    color: #fff;
+}
+
+#container #content .content_admin .tampil_admin .tbl_admin thead th{
+    padding: 5px;
+}
+
+#container #content .content_admin .tampil_admin .tbl_admin tbody{
+    margin: 0;
+    padding: 0;
+}
+
+#container #content .content_admin .tampil_admin .tbl_admin td{
+    background: #fff;
+    text-align: center;
+    padding: 5px;
+    font-size: 16px;
+}
+
+#container #content .content_admin .tampil_admin .tbl_admin td a{
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#container #content .content_admin .tampil_admin .tbl_admin td a:hover{
+    color: red;
+}
+
+#container #content .content_admin .tampil_admin .tbl_admin tbody tr:nth-child(odd) td{
+    background: #ccc;
+    padding: 5px;
+}
+
+#container #content .content_admin .tampil_admin .tbl_admin tr td img{
+    max-width: 100%;
+    height: 70px;
+}
+
+#container #content .content_admin .update_admin{
+    margin: 0;
+    padding: 0;
+}
+
+#container #content .content_admin .update_admin .title_update_admin{
+    margin: 0 0 20px 0;
+    padding: 10px 0;
+}
+
+#container #content .content_admin .update_admin .title_update_admin .main_title_update_admin{
+    background: #999999;
+    color: #000;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+#container #content .content_admin .update_admin .title_update_admin .main_title_update_admin:hover{
+    background: #000;
+    color: #fff;
+}
+
+#container #content .content_admin .update_admin .isi_update_admin{
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+
+#container #content .content_admin .update_admin .isi_update_admin table{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-spacing: 0;
+    border: 2px solid #000;
+    border-radius: 3px;
+}
+
+#container #content .content_admin .update_admin .isi_update_admin table .title_table{
+    background: #666;
+    color: #fff;
+    padding: 10px 15px;
+    width: 25%;
+    border: 1px solid #ccc;
+    text-align: center;
+    margin: 0 5px 0 0;
+}
+
+#container #content .content_admin .update_admin .isi_update_admin table .isi_table{
+    background: #999999;
+    margin: 0;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+#container #content .content_admin .update_admin .isi_update_admin table .isi_table:hover{
+    background: #000;
+}
+
+#container #content .content_admin .update_admin .isi_update_admin table .isi_table .input_text{
+    padding: 5px;
+    width: 100%;
+    background: #fff;
+    border: none;
+}
+
+#container #content .content_admin .update_admin .isi_update_admin table .isi_table .input_area{
+    padding: 5px;
+    width: 100%;
+    background: #fff;
+    border: none;
+    height: 150px;
+}
+
+#container #content .content_admin .update_admin .isi_update_admin table .simpan{
+    width: 100%;
+    padding: 5px;
+    margin: 0;
+    border-radius: 3px;
+    background: #000;
+    font-weight: bold;
+    font-size: 18px;
+    border: 2px solid #cccccc;
+    text-transform: capitalize;
+    cursor: pointer;
+    color: #fff;
+}
+
+#container #content .content_admin .update_admin .isi_update_admin table .simpan:hover{
+    background: #fff;
+    color: #000;
+}
+
+#container #footer{
+    margin: 10px 0 0 0;
+    text-align: center;
+    padding: 10px 15px;
+    background: #999999;
+    border-radius: 6px;
+    font-size: 15px;
+    color: #000;
+    font-weight: bold;
+    border: 2px solid #000;
+}
